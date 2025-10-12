@@ -1,0 +1,13 @@
+﻿  test.cpp
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(26,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:         with
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:         [
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:             _Ty=int
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:         ]
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267: “参数”: 从“size_t”转换到“const K”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:         with
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:         [
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:             K=int
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:         ]
+  10.11AvlTree.vcxproj -> D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\x64\Debug\10.11AvlTree.exe

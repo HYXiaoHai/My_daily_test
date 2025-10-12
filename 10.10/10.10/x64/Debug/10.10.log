@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\a VS编程\GitHub\My_daily_test\10.10\10.10\test.cpp(9,6): warning C4101: “C”: 未引用的局部变量
+D:\a VS编程\GitHub\My_daily_test\10.10\10.10\test.cpp(44,17): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+  10.10.vcxproj -> D:\a VS编程\GitHub\My_daily_test\10.10\x64\Debug\10.10.exe
