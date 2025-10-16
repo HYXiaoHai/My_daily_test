@@ -1,13 +1,49 @@
 ﻿  test.cpp
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(26,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:         with
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:         [
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:             _Ty=int
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(29,22): warning C4267:         ]
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267: “参数”: 从“size_t”转换到“const K”，可能丢失数据
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:         with
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:         [
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:             K=int
-D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(51,18): warning C4267:         ]
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(367,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(370,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(370,22): warning C4267:         with
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(370,22): warning C4267:         [
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(370,22): warning C4267:             _Ty=int
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(370,22): warning C4267:         ]
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(392,18): warning C4267: “参数”: 从“size_t”转换到“const K”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(392,18): warning C4267:         with
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(392,18): warning C4267:         [
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(392,18): warning C4267:             K=int
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(392,18): warning C4267:         ]
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(171,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+      D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(171,18):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(347,20):
+          查看对正在编译的 类 模板 实例化“AVLTree<int,int>”的引用
+          D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(165,7):
+          在编译 类 模板 成员函数“bool AVLTree<int,int>::_IsBalanceTree(AVLTreeNode<K,V> *)”时
+          with
+          [
+              K=int,
+              V=int
+          ]
+              D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(156,3):
+              请参阅 "AVLTree<int,int>::IsAVLTree" 中对 "AVLTree<int,int>::_IsBalanceTree" 的第一个引用
+              D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(358,24):
+              请参阅 "TestAVLTree1" 中对 "AVLTree<int,int>::IsAVLTree" 的第一个引用
+  
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(172,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(187,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+      D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(187,14):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(181,9):
+          在编译 类 模板 成员函数“size_t AVLTree<int,int>::_Height(AVLTreeNode<K,V> *)”时
+          with
+          [
+              K=int,
+              V=int
+          ]
+              D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(171,18):
+              请参阅 "AVLTree<int,int>::_IsBalanceTree" 中对 "AVLTree<int,int>::_Height" 的第一个引用
+              D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(156,3):
+              请参阅 "AVLTree<int,int>::IsAVLTree" 中对 "AVLTree<int,int>::_IsBalanceTree" 的第一个引用
+              D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(358,24):
+              请参阅 "TestAVLTree1" 中对 "AVLTree<int,int>::IsAVLTree" 的第一个引用
+  
+D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\10.11AvlTree\test.cpp(188,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   10.11AvlTree.vcxproj -> D:\a VS编程\GitHub\My_daily_test\10.11AvlTree\x64\Debug\10.11AvlTree.exe
