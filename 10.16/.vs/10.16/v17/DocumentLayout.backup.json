@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{BB83CDFB-ADB1-4D84-BC3B-6C844F3C3D75}|10.16\\10.16.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.16\\10.16\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB83CDFB-ADB1-4D84-BC3B-6C844F3C3D75}|10.16\\10.16.vcxproj|solutionrelative:10.16\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB83CDFB-ADB1-4D84-BC3B-6C844F3C3D75}|10.16\\10.16.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.16\\10.16\\RBTree_test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB83CDFB-ADB1-4D84-BC3B-6C844F3C3D75}|10.16\\10.16.vcxproj|solutionrelative:10.16\\RBTree_test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RBTree_test.h",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.16\\10.16\\RBTree_test.h",
+              "RelativeDocumentMoniker": "10.16\\RBTree_test.h",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.16\\10.16\\RBTree_test.h",
+              "RelativeToolTip": "10.16\\RBTree_test.h",
+              "ViewState": "AgIAANgAAAAAAAAAAAAawHEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-18T02:04:16.68Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -36,7 +54,7 @@
               "RelativeDocumentMoniker": "10.16\\RBTree.h",
               "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.16\\10.16\\RBTree.h",
               "RelativeToolTip": "10.16\\RBTree.h",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAFQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-16T11:30:23.873Z",
               "EditorCaption": ""
@@ -49,7 +67,7 @@
               "RelativeDocumentMoniker": "10.16\\test.cpp",
               "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.16\\10.16\\test.cpp*",
               "RelativeToolTip": "10.16\\test.cpp*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-16T08:15:41.85Z",
               "EditorCaption": ""

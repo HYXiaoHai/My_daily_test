@@ -1,22 +1,13 @@
 ﻿  test.cpp
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\RBTree.h(299,13): warning C4566: 由通用字符名称“\u2FCA”表示的字符不能在当前代码页(936)中表示出来
-  (编译源文件“test.cpp”)
-  
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\RBTree.h(299,13): warning C4566: 由通用字符名称“\u2F8A”表示的字符不能在当前代码页(936)中表示出来
-  (编译源文件“test.cpp”)
-  
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\RBTree.h(308,31): warning C4566: 由通用字符名称“\u2F8A”表示的字符不能在当前代码页(936)中表示出来
-  (编译源文件“test.cpp”)
-  
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(27,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(30,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(30,22): warning C4267:         with
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(30,22): warning C4267:         [
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(30,22): warning C4267:             _Ty=int
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(30,22): warning C4267:         ]
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(52,18): warning C4267: “参数”: 从“size_t”转换到“const K”，可能丢失数据
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(52,18): warning C4267:         with
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(52,18): warning C4267:         [
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(52,18): warning C4267:             K=int
-D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(52,18): warning C4267:         ]
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(28,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(31,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(31,22): warning C4267:         with
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(31,22): warning C4267:         [
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(31,22): warning C4267:             _Ty=int
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(31,22): warning C4267:         ]
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(53,18): warning C4267: “参数”: 从“size_t”转换到“const K”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(53,18): warning C4267:         with
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(53,18): warning C4267:         [
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(53,18): warning C4267:             K=int
+D:\a VS编程\GitHub\My_daily_test\10.16\10.16\test.cpp(53,18): warning C4267:         ]
   10.16.vcxproj -> D:\a VS编程\GitHub\My_daily_test\10.16\x64\Debug\10.16.exe
