@@ -1,0 +1,49 @@
+﻿  tets.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4267: “初始化”: 从“size_t”转换到“_Ty1”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4267:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4267:         ]
+  (编译源文件“tets.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\a VS编程\GitHub\My_daily_test\11.8Hash\11.8Hash\tets.cpp(306,13):
+          查看对正在编译的函数 模板 实例化“std::pair<K,V>::pair<size_t&,size_t&,0>(_Other1,_Other2) noexcept”的引用
+          with
+          [
+              K=int,
+              V=int,
+              _Other1=size_t &,
+              _Other2=size_t &
+          ]
+              D:\a VS编程\GitHub\My_daily_test\11.8Hash\11.8Hash\tets.cpp(306,12):
+              请参阅 "test1" 中对 "std::pair<K,V>::pair" 的第一个引用
+          with
+          [
+              K=int,
+              V=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4267: “初始化”: 从“size_t”转换到“_Ty2”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4267:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4267:         ]
+  (编译源文件“tets.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\11.8Hash\11.8Hash\tets.cpp(212,59): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+      D:\a VS编程\GitHub\My_daily_test\11.8Hash\11.8Hash\tets.cpp(212,59):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\a VS编程\GitHub\My_daily_test\11.8Hash\11.8Hash\tets.cpp(311,40):
+          查看对正在编译的 类 模板 实例化“hash_bucket::HashTable<std::string,std::string,HashFunc<std::string>>”的引用
+          D:\a VS编程\GitHub\My_daily_test\11.8Hash\11.8Hash\tets.cpp(206,8):
+          在编译 类 模板 成员函数“bool hash_bucket::HashTable<std::string,std::string,HashFunc<std::string>>::insert(const std::pair<K,V> &)”时
+          with
+          [
+              K=std::string,
+              V=std::string
+          ]
+              D:\a VS编程\GitHub\My_daily_test\11.8Hash\11.8Hash\tets.cpp(312,13):
+              请参阅 "test2" 中对 "hash_bucket::HashTable<std::string,std::string,HashFunc<std::string>>::insert" 的第一个引用
+  
+  11.8Hash.vcxproj -> D:\a VS编程\GitHub\My_daily_test\11.8Hash\x64\Debug\11.8Hash.exe

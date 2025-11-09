@@ -20,10 +20,16 @@ public:
 	{
 		return _t.End();
 	}
-	bool insert(const pair<K, V>& kv)
+	pair<iterator, bool> insert(const pair<K, V>& kv)
 	{
 		return _t.Insert(kv);
 	}
+	V& operator[](const K& key)
+	{
+		pair<iterator,bool> ret = insert({ key,V()});
+		return ret.first->scend;
+	}
+
 private:
 	RBTree<K, const pair<K, V>, MapKeyOfT>_t;
 };

@@ -1,2 +1,35 @@
 ﻿  test.cpp
-  10.22.vcxproj -> D:\a VS编程\GitHub\My_daily_test\10.22\x64\Debug\10.22.exe
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,11): error C2839: 重载的“operator ->”的无效返回类型“Ptr *”
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,11): error C2839:         with
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,11): error C2839:         [
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,11): error C2839:             Ptr=std::pair<const std::string,std::string> *
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,11): error C2839:         ]
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,15): error C2039: "first": 不是 "TreeIterator<T,T &,T *>" 的成员
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,15): error C2039:         with
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,15): error C2039:         [
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,15): error C2039:             T=std::pair<const std::string,std::string>
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,15): error C2039:         ]
+      D:\a VS编程\GitHub\My_daily_test\10.22\10.22\RBTree.h(34,8):
+      参见“TreeIterator<T,T &,T *>”的声明
+          with
+          [
+              T=std::pair<const std::string,std::string>
+          ]
+  
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,29): error C2839: 重载的“operator ->”的无效返回类型“Ptr *”
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,29): error C2839:         with
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,29): error C2839:         [
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,29): error C2839:             Ptr=std::pair<const std::string,std::string> *
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,29): error C2839:         ]
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,33): error C2039: "second": 不是 "TreeIterator<T,T &,T *>" 的成员
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,33): error C2039:         with
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,33): error C2039:         [
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,33): error C2039:             T=std::pair<const std::string,std::string>
+D:\a VS编程\GitHub\My_daily_test\10.22\10.22\test.cpp(46,33): error C2039:         ]
+      D:\a VS编程\GitHub\My_daily_test\10.22\10.22\RBTree.h(34,8):
+      参见“TreeIterator<T,T &,T *>”的声明
+          with
+          [
+              T=std::pair<const std::string,std::string>
+          ]
+  

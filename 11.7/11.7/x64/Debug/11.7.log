@@ -1,0 +1,7 @@
+﻿  Client.cpp
+  test.cpp
+D:\a VS编程\GitHub\My_daily_test\11.7\11.7\test.cpp(54,12): warning C4101: “client3”: 未引用的局部变量
+D:\a VS编程\GitHub\My_daily_test\11.7\11.7\test.cpp(39,12): warning C4101: “client1”: 未引用的局部变量
+D:\a VS编程\GitHub\My_daily_test\11.7\11.7\test.cpp(53,12): warning C4101: “client2”: 未引用的局部变量
+  正在生成代码...
+  11.7.vcxproj -> D:\a VS编程\GitHub\My_daily_test\11.7\x64\Debug\11.7.exe

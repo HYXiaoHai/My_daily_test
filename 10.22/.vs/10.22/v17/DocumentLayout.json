@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|solutionrelative:10.22\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|solutionrelative:10.22\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|solutionrelative:10.22\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|solutionrelative:10.22\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|solutionrelative:10.22\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{843ABC95-1B57-4138-952C-850F77E125D2}|10.22\\10.22.vcxproj|solutionrelative:10.22\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RBTree.h",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\RBTree.h",
               "RelativeDocumentMoniker": "10.22\\RBTree.h",
               "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\RBTree.h",
               "RelativeToolTip": "10.22\\RBTree.h",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-22T07:32:43.287Z",
               "IsPinned": true,
@@ -50,10 +50,11 @@
               "RelativeDocumentMoniker": "10.22\\Map.h",
               "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\Map.h",
               "RelativeToolTip": "10.22\\Map.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-22T07:31:25.775Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -65,27 +66,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Set.h",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\Set.h",
               "RelativeDocumentMoniker": "10.22\\Set.h",
               "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\Set.h",
               "RelativeToolTip": "10.22\\Set.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-22T07:31:37.71Z"
+              "WhenOpened": "2025-10-22T07:31:37.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "test.cpp",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\test.cpp",
               "RelativeDocumentMoniker": "10.22\\test.cpp",
               "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\10.22\\10.22\\test.cpp",
               "RelativeToolTip": "10.22\\test.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAxwCEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-22T07:00:20.385Z"
+              "WhenOpened": "2025-10-22T07:00:20.385Z",
+              "EditorCaption": ""
             }
           ]
         }

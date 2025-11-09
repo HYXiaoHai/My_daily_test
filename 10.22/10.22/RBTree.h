@@ -29,21 +29,22 @@ struct RBTreeNode
 	}
 };
 
-template<class T,class Ref,class Ptr>
+
+template<class T, class Ref, class Ptr>
 struct TreeIterator
 {
 	typedef RBTreeNode<T> Node;
-	typedef TreeIterator<T,Ref,Ptr> Self;
+	typedef TreeIterator<T, Ref, Ptr> Self;
 	Node* _node;
 	TreeIterator(Node* node)
 		:_node(node)
 	{
 	}
-	T& operator*()
+	Ref& operator*()
 	{
 		return _node->_data;
 	}
-	T* operator->()
+	Ptr* operator->()
 	{
 		return &_node->_data;
 	}
@@ -111,7 +112,7 @@ class RBTree
 {
 	typedef RBTreeNode<T> Node;
 public:
-	typedef TreeIterator<T> Iterator;
+	typedef TreeIterator<T,T&,T*> Iterator;
 
 	Iterator Begin()
 	{
@@ -129,15 +130,16 @@ public:
 		return Iterator(nullptr);
 	}
 
-	bool Insert(const T& data)
+	pair<Iterator, bool> Insert(const T& data)
 	{
 		if (_root == nullptr)
 		{
 			_root = new Node(data);
 			_root->_col = BLACK;
-
-			return true;
+			return { Iterator(_root),true };
 		}
+
+
 		KeyOfT kot;
 		Node* parent = nullptr;
 		Node* cur = _root;
@@ -155,10 +157,15 @@ public:
 			}
 			else
 			{
-				return false;
+				return { Iterator(cur),false };
+
 			}
 		}
+
+
 		cur = new Node(data);
+		Node* newnode = cur;
+		// 新增节点。颜色红色给红色
 		cur->_col = RED;
 		if (kot(parent->_data) < kot(data))
 		{
@@ -169,31 +176,34 @@ public:
 			parent->_left = cur;
 		}
 		cur->_parent = parent;
+
 		while (parent && parent->_col == RED)
 		{
 			Node* grandfather = parent->_parent;
-			//   g
-			// p   u
+			//    g
+			//  p   u
 			if (parent == grandfather->_left)
 			{
 				Node* uncle = grandfather->_right;
 				if (uncle && uncle->_col == RED)
 				{
-					// u存在且为红 ->变⾊再继续往上处理
+					// u存在且为红 -》变色再继续往上处理
 					parent->_col = uncle->_col = BLACK;
 					grandfather->_col = RED;
+
 
 					cur = grandfather;
 					parent = cur->_parent;
 				}
-				else// u不存在或存在且为黑 ->旋转+变⾊ 
+				else
 				{
+					// u存在且为黑或不存在 -》旋转+变色
 					if (cur == parent->_left)
 					{
 						//    g
 						//  p   u
 						//c
-						//单旋 
+						//单旋
 						RotateR(grandfather);
 						parent->_col = BLACK;
 						grandfather->_col = RED;
@@ -202,10 +212,11 @@ public:
 					{
 						//    g
 						//  p   u
-						//     c
-						//双旋 
+						//    c
+						//双旋
 						RotateL(parent);
 						RotateR(grandfather);
+
 
 						cur->_col = BLACK;
 						grandfather->_col = RED;
@@ -215,25 +226,26 @@ public:
 			}
 			else
 			{
-				//   g
-				// u   p
+				//    g
+				//  u   p
 				Node* uncle = grandfather->_left;
-				// 叔叔存在且为红，-》变⾊即可 
+				// 叔叔存在且为红，-》变色即可
 				if (uncle && uncle->_col == RED)
 				{
 					parent->_col = uncle->_col = BLACK;
 					grandfather->_col = RED;
-					// 继续往上处理 
+
+					// 继续往上处理
 					cur = grandfather;
 					parent = cur->_parent;
 				}
-				else // 叔叔不存在，或者存在且为⿊ 
+				else // 叔叔不存在，或者存在且为黑
 				{
-					// 情况⼆：叔叔不存在或者存在且为⿊ 
-					// 旋转+变⾊ 
-					// g
-					// u p
-					// c
+					// 情况二：叔叔不存在或者存在且为黑
+					// 旋转+变色
+					//      g
+					//   u     p
+					//            c
 					if (cur == parent->_right)
 					{
 						RotateL(grandfather);
@@ -242,9 +254,9 @@ public:
 					}
 					else
 					{
-						// g
-						// u p
-						// c
+						//		g
+						//   u     p
+						//      c
 						RotateR(parent);
 						RotateL(grandfather);
 						cur->_col = BLACK;
@@ -254,8 +266,10 @@ public:
 				}
 			}
 		}
+
 		_root->_col = BLACK;
-		return true;
+		return { Iterator(newnode),true };
+		;
 	}
 
 	Node* Find(const K& key)
@@ -353,4 +367,3 @@ private:
 
 	Node* _root = nullptr;
 };
-

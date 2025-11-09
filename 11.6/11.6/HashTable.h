@@ -119,7 +119,7 @@ void TestHT1()
 	{
 		ht.Insert({ e,e });
 	}
-
+	
 	cout << ht.Find(5) << endl;
 	cout << ht.Find(58) << endl;
 	ht.Erase(5);
