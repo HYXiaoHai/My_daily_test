@@ -58,12 +58,113 @@ struct HashNode
 	}
 };
 
+template<class K, class T, class KeyOfT, class Hash = HashFunc<K>>
+class HashTable;
 
-template<class K, class T,class KeyOfT ,class Hash = HashFunc<K>>
-class HashTable
+template<class K, class T, class Ref, class Ptr,class KeyOfT, class Hash >
+struct HTIterator
 {
 	typedef HashNode<T>Node;
+	typedef HashTable<K, T, KeyOfT, Hash>HT;
+	typedef HTIterator<K, T,Ref,Ptr,KeyOfT, Hash>Self;
+
+	Node* _node;
+	const HT* _ht;
+	HTIterator(Node* node,const HT* ht)
+		:_node(node)
+		, _ht(ht)
+	{
+	}
+	Ref operator*()
+	{
+		return _node->_data;
+	}
+	Ptr operator->()
+	{
+		return &_node->_data;
+	}
+	Self& operator++()
+	{
+		if (_node->_next)
+		{
+			_node = _node->_next;
+		}
+		else //当前桶为空，找第一个不为空的桶的第一个
+		{
+			size_t hashi = Hash()(KeyOfT()(_node->_data)) % _ht->_tables.size();
+			++hashi;
+			while (hashi!=_ht->_tables.size())
+			{
+				if (_ht->_tables[hashi])
+				{
+					_node = _ht->_tables[hashi];
+					break;
+				}
+				hashi++;
+			}
+			if (hashi == _ht->_tables.size())
+			{
+				_node = nullptr;
+			}
+		}
+		return *this;
+	}
+	bool operator!=(const Self& s)const
+	{
+		return _node != s._node;
+	}
+	bool operator==(const Self& s)const
+	{
+		return _node == s._node;
+	}
+
+};
+
+template<class K, class T, class KeyOfT, class Hash>
+class HashTable
+{
+	//友元
+	template<class K, class T, class Ref, class Ptr, class KeyOfT, class Hash  >
+	friend struct HTIterator;
+
+	typedef HashNode<T>Node;
 public:
+	typedef HTIterator<K, T,T&,T* ,KeyOfT, Hash>Iterator;
+	typedef HTIterator<K, T,const T&,const T*,KeyOfT, Hash>ConstIterator;
+
+	Iterator Begin()
+	{
+		for (size_t i =0;i<_tables.size();i++)
+		{
+			if (_tables[i])
+			{
+				return Iterator(_tables[i], this);
+			}
+		}
+		return End();
+	}
+
+	Iterator End()
+	{
+		return Iterator(nullptr,this);
+	}
+	ConstIterator Begin()const
+	{
+		for (size_t i =0;i<_tables.size();i++)
+		{
+			if (_tables[i])
+			{
+				return ConstIterator(_tables[i], this);
+			}
+		}
+		return End();
+	}
+
+	ConstIterator End()const
+	{
+		return ConstIterator(nullptr,this);
+	}
+
 	HashTable()
 		:_tables(__stl_next_prime(1), nullptr)
 		, _n(0)
@@ -85,11 +186,12 @@ public:
 		}
 	}
 
-	bool Insert(const T& data)
+	pair<Iterator,bool> Insert(const T& data)
 	{
 		KeyOfT kot;
-		if (Find(kot(data)))
-			return false;
+		auto it = Find(kot(data));
+		if(it!=End())
+			return {it,false};
 		Hash hs;
 		//负载因子==1扩容
 		if (_n == _tables.size())
@@ -121,10 +223,10 @@ public:
 		_tables[hashi] = newNode;
 
 		++_n;
-		return true;
+		return {Iterator(newNode,this),true};
 	}
 
-	Node* Find(const K& key)
+	Iterator Find(const K& key)
 	{
 		KeyOfT kot;
 		Hash hs;
@@ -134,11 +236,11 @@ public:
 		{
 			if (kot(cur->_data) == key)
 			{
-				return cur;
+				return {cur,this};
 			}
 			cur = cur->_next;
 		}
-		return nullptr;
+		return End();
 	}
 
 	bool Erase(const K& key)

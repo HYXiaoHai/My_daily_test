@@ -1,33 +1,37 @@
 ﻿  test.cpp
-D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(97,59): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(55,20): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
   (编译源文件“test.cpp”)
-      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(97,59):
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(199,59): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(199,59):
       模板实例化上下文(最早的实例化上下文)为
-          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(26,33):
+          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(50,33):
           查看对正在编译的 类 模板 实例化“Xiaohai::unordered_map<std::string,std::string>”的引用
-          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(22,45):
+          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(16,63):
           查看对正在编译的 类 模板 实例化“HashTable<K,std::pair<const K,V>,Xiaohai::unordered_map<K,V>::MapKeyOfT,HashFunc<std::string>>”的引用
           with
           [
               K=std::string,
               V=std::string
           ]
-          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(88,7):
-          在编译 类 模板 成员函数“bool HashTable<K,std::pair<const K,V>,Xiaohai::unordered_map<K,V>::MapKeyOfT,HashFunc<std::string>>::Insert(const T &)”时
+          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(189,22):
+          在编译 类 模板 成员函数“std::pair<HTIterator<K,T,T &,T *,KeyOfT,Hash>,bool> HashTable<K,T,KeyOfT,Hash>::Insert(const T &)”时
           with
           [
               K=std::string,
-              V=std::string,
-              T=std::pair<const std::string,std::string>
+              T=std::pair<const std::string,std::string>,
+              KeyOfT=Xiaohai::unordered_map<std::string,std::string>::MapKeyOfT,
+              Hash=HashFunc<std::string>
           ]
-              D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(18,4):
+              D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(37,4):
               请参阅 "Xiaohai::unordered_map<std::string,std::string>::insert" 中对 "HashTable<K,std::pair<const K,V>,Xiaohai::unordered_map<K,V>::MapKeyOfT,HashFunc<std::string>>::Insert" 的第一个引用
           with
           [
               K=std::string,
               V=std::string
           ]
-              D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(27,14):
+              D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(51,14):
               请参阅 "Xiaohai::test_map" 中对 "Xiaohai::unordered_map<std::string,std::string>::insert" 的第一个引用
   
   Hash.vcxproj -> D:\a VS编程\GitHub\My_daily_test\Hash\x64\Debug\Hash.exe
