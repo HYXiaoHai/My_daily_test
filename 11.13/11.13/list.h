@@ -225,7 +225,6 @@ namespace XiaoHai
 				it = erase(it);
 			}
 		}
-
 		void push_back(const T& x)
 		{
 			insert(end(), x);

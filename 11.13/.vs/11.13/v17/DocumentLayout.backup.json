@@ -21,19 +21,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "list.h",
-              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.13\\11.13\\list.h",
-              "RelativeDocumentMoniker": "11.13\\list.h",
-              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.13\\11.13\\list.h",
-              "RelativeToolTip": "11.13\\list.h",
-              "ViewState": "AgIAADUBAAAAAAAAAAAAADUBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T07:49:37.659Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
@@ -43,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "list.h",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.13\\11.13\\list.h",
+              "RelativeDocumentMoniker": "11.13\\list.h",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.13\\11.13\\list.h*",
+              "RelativeToolTip": "11.13\\list.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-13T07:49:37.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "test.cpp",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.13\\11.13\\test.cpp",
               "RelativeDocumentMoniker": "11.13\\test.cpp",
               "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.13\\11.13\\test.cpp",
               "RelativeToolTip": "11.13\\test.cpp",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAqwHQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACcCAAAAAAAAAAAAADkCAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-13T05:34:34.45Z",
               "EditorCaption": ""
