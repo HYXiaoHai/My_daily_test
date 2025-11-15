@@ -1,37 +1,106 @@
 ﻿  test.cpp
-D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(55,20): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(314,20): error C3861: “Hash”: 找不到标识符
   (编译源文件“test.cpp”)
-  
-D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(199,59): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
-  (编译源文件“test.cpp”)
-      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(199,59):
+      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(314,24):
+      “Hash”: 函数声明必须可用，因为所有参数都不依赖于模板参数
+      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(314,24):
       模板实例化上下文(最早的实例化上下文)为
-          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(50,33):
-          查看对正在编译的 类 模板 实例化“Xiaohai::unordered_map<std::string,std::string>”的引用
-          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(16,63):
-          查看对正在编译的 类 模板 实例化“HashTable<K,std::pair<const K,V>,Xiaohai::unordered_map<K,V>::MapKeyOfT,HashFunc<std::string>>”的引用
-          with
-          [
-              K=std::string,
-              V=std::string
-          ]
-          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(189,22):
-          在编译 类 模板 成员函数“std::pair<HTIterator<K,T,T &,T *,KeyOfT,Hash>,bool> HashTable<K,T,KeyOfT,Hash>::Insert(const T &)”时
-          with
-          [
-              K=std::string,
-              T=std::pair<const std::string,std::string>,
-              KeyOfT=Xiaohai::unordered_map<std::string,std::string>::MapKeyOfT,
-              Hash=HashFunc<std::string>
-          ]
-              D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(37,4):
-              请参阅 "Xiaohai::unordered_map<std::string,std::string>::insert" 中对 "HashTable<K,std::pair<const K,V>,Xiaohai::unordered_map<K,V>::MapKeyOfT,HashFunc<std::string>>::Insert" 的第一个引用
-          with
-          [
-              K=std::string,
-              V=std::string
-          ]
-              D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(51,14):
-              请参阅 "Xiaohai::test_map" 中对 "Xiaohai::unordered_map<std::string,std::string>::insert" 的第一个引用
+          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(287,9):
+          在编译类模板“XiaoHai::HTIterator”时
   
-  Hash.vcxproj -> D:\a VS编程\GitHub\My_daily_test\Hash\x64\Debug\Hash.exe
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(314,27): error C3861: “KeyOfT”: 找不到标识符
+  (编译源文件“test.cpp”)
+      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(314,33):
+      “KeyOfT”: 函数声明必须可用，因为所有参数都不依赖于模板参数
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(314,53): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(316,21): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(318,10): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(320,15): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(325,18): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(314,53): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(316,21): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(318,10): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(320,15): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(325,18): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(340,21): error C3861: “Hash”: 找不到标识符
+  (编译源文件“test.cpp”)
+      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(340,25):
+      “Hash”: 函数声明必须可用，因为所有参数都不依赖于模板参数
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(340,28): error C3861: “KeyOfT”: 找不到标识符
+  (编译源文件“test.cpp”)
+      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(340,34):
+      “KeyOfT”: 函数声明必须可用，因为所有参数都不依赖于模板参数
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(340,54): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(342,22): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(344,11): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(346,16): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(351,19): error C3861: “_ht”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(356,22): error C3861: “_pNode”: 找不到标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(340,54): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(342,22): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(344,11): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(346,16): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(351,19): error C2065: “_ht”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(356,22): error C2065: “_pNode”: 未声明的标识符
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(445,8): error C4996: 'std::iterator': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+  (编译源文件“test.cpp”)
+      D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(445,8):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(369,8):
+          在编译类模板“XiaoHai::HashBucket”时
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\HashTable.h(445,8): error C3203: "iterator": 未指定的 类 模板 不能用作 模板 参数 "_Ty1" 的 模板 参数，应为真实类型
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\UnorderedMap.h(58,20): warning C4566: 由通用字符名称“\u2F0A”表示的字符不能在当前代码页(936)中表示出来
+  (编译源文件“test.cpp”)
+  
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\test.cpp(7,2): error C2653: “Xiaohai”: 不是类或命名空间名称
+D:\a VS编程\GitHub\My_daily_test\Hash\Hash\test.cpp(7,11): error C3861: “test_map”: 找不到标识符

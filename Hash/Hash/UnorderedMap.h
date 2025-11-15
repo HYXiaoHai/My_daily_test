@@ -1,6 +1,6 @@
 ﻿#pragma once
 #include"HashTable.h"
-namespace Xiaohai
+namespace bit
 {
 	template<class K, class V>
 	class unordered_map
@@ -77,4 +77,63 @@ namespace Xiaohai
 		//}
 		//cout << endl;
 	}
+}
+
+namespace XiaoHai
+{
+	// unordered_map中存储的是pair<K, V>的键值对，K为key的类型，V为value的类型，HF哈希函数类型
+	// unordered_map在实现时，只需将hashbucket中的接口重新封装即可
+	template<class K, class V, class HF = HashFunc<K>>
+	class unordered_map
+	{
+		// 通过key获取value的操作
+		struct KeyOfValue
+		{
+			const K& operator()(const pair<K, V>& data)
+			{
+				return data.first;
+			}
+		};
+		typedef HashBucket<K, pair<K, V>, KeyOfValue, HF> HT;
+	public:
+		typename typedef HT::Iterator iterator;
+	public:
+		iterator begin() { return _ht.begin(); }
+		iterator end() { return _ht.end(); }
+		////////////////////////////////////////////////////////////
+		// capacity
+		size_t size()const { return _ht.size(); }
+		bool empty()const { return _ht.empty(); }
+		///////////////////////////////////////////////////////////
+		// Acess
+		V& operator[](const K& key)
+		{
+			pair<iterator, bool> ret = _ht.Insert(pair<K, V>(key, V()));
+			return ret.fisrt->second;
+		}
+		const V& operator[](const K& key)const
+		{
+			pair<iterator, bool> ret = _ht.Insert(pair<K, V>(key, V()));
+			return ret.fisrt->second;
+		}
+		//////////////////////////////////////////////////////////
+		// lookup
+		iterator find(const K& key) { return _ht.Find(key); }
+		// modify
+		pair<iterator, bool> insert(const pair<K, V>& valye)
+		{
+			return _ht.Insert(valye);
+		}
+
+		iterator erase(iterator position)
+		{
+			return _ht.Erase(position);
+		}
+		////////////////////////////////////////////////////////////
+		// bucket
+		size_t bucket_count() { return _ht.BucketCount(); }
+		size_t bucket_size(const K& key) { return _ht.BucketSize(key); }
+	private:
+		HT _ht;
+	};
 }

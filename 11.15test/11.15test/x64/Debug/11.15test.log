@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\a VS编程\GitHub\My_daily_test\11.15test\11.15test\test.cpp(136,12): warning C4566: 由通用字符名称“\u2EC9”表示的字符不能在当前代码页(936)中表示出来
+D:\a VS编程\GitHub\My_daily_test\11.15test\11.15test\test.cpp(152,12): warning C4566: 由通用字符名称“\u2EC9”表示的字符不能在当前代码页(936)中表示出来
+  11.15test.vcxproj -> D:\a VS编程\GitHub\My_daily_test\11.15test\x64\Debug\11.15test.exe

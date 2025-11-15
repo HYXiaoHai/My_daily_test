@@ -569,7 +569,7 @@ namespace bit
 //	int _x;
 //	int _y;
 //};
-
+//
 //int main()
 //{
 //	Example(1, 2);
@@ -579,47 +579,206 @@ namespace bit
 //适用于：
 //1.没有成员变量的派生类
 //2.成员变量都有缺省值，并且我们就想用这个缺省值初始化
-class Base {
-public:
-	Base(int x, double d)
-		:_x(x)
-		,_d(d)
-	{ }
-	Base(int x)
-		:_x(x)
-	{ }
-	Base(double d)
-		:_x(d)
-	{ }
-private:
-	int _x;
-	double _d;
-};
+//class Base {
+//public:
+//	Base(int x, double d)
+//		:_x(x)
+//		,_d(d)
+//	{ }
+//	Base(int x)
+//		:_x(x)
+//	{ }
+//	Base(double d)
+//		:_x(d)
+//	{ }
+//private:
+//	int _x;
+//	double _d;
+//};
+//
+////传统继承
+//class Derive :public Base {
+//public:
+//	Derive(int x) :Base(x) {}
+//	Derive(double d) :Base(d) {}
+//	Derive(int x,double d):Base(x,d){}
+//};
+//
+////继承构造
+//class Derive :public Base {
+//public:
+//	using Base::Base;
+//
+////protected:
+////	int _i = 0;
+////	string s;
+//
+//};
+//
+//int main()
+//{
+//	//Derive d;
+//	Derive d1(1);
+//	Derive d2(1.1);
+//	Derive d3(2,2.2);
+//	return 0;
+//}
 
-//传统继承
-class Derive :public Base {
-public:
-	Derive(int x) :Base(x) {}
-	Derive(double d) :Base(d) {}
-	Derive(int x,double d):Base(x,d){}
-};
-
-//继承构造
-class Derive :public Base {
-public:
-	using Base::Base;
-
-//protected:
-//	int _i = 0;
-//	string s;
-
-};
-
-int main()
+// Myset.h
+#include"RBTree.h"
+namespace bit
 {
-	//Derive d;
-	Derive d1(1);
-	Derive d2(1.1);
-	Derive d3(2,2.2);
-	return 0;
+	template<class K>
+	class set
+	{
+		struct SetKeyOfT
+		{
+			const K& operator()(const K& key)
+			{
+				return key;
+			}
+		};
+	public:
+		typedef typename RBTree<K, const K, SetKeyOfT>::Iterator iterator;
+		typedef typename RBTree<K, const K, SetKeyOfT>::ConstIterator
+			const_iterator;
+		iterator begin()
+		{
+			return _t.Begin();
+		}
+		iterator end()
+		{
+			return _t.End();
+		}
+		const_iterator begin() const
+		{
+			return _t.Begin();
+		}
+		const_iterator end() const
+		{
+			return _t.End();
+		}
+		pair<iterator, bool> insert(const K& key)
+		{
+			return _t.Insert(key);
+		}
+		iterator find(const K& key)
+		{
+			return _t.Find(key);
+		}
+	private:
+		RBTree<K, const K, SetKeyOfT> _t;
+	};
+	void Print(const set<int>& s)
+	{
+		set<int>::const_iterator it = s.end();
+		while (it != s.begin())
+		{
+			--it;
+			// 不⽀持修改 
+			//*it += 2;
+
+			cout << *it << " ";
+		}
+		cout << endl;
+	}
+	void test_set()
+	{
+		set<int> s;
+		int a[] = { 4, 2, 6, 1, 3, 5, 15, 7, 16, 14 };
+		for (auto e : a)
+		{
+			s.insert(e);
+		}
+		for (auto e : s)
+		{
+			cout << e << " ";
+		}
+		cout << endl;
+
+		Print(s);
+	}
 }
+// Mymap.h
+#include"RBTree.h"
+namespace bit
+{
+	template<class K, class V>
+	class map
+	{
+		struct MapKeyOfT
+		{
+			const K& operator()(const pair<K, V>& kv)
+			{
+				return kv.first;
+			}
+		};
+	public:
+		typedef typename RBTree<K, pair<const K, V>, MapKeyOfT>::Iterator
+			iterator;
+		typedef typename RBTree<K, pair<const K, V>, MapKeyOfT>::ConstIterator
+			const_iterator;
+
+		iterator begin()
+		{
+			return _t.Begin();
+		}
+
+		iterator end()
+		{
+			return _t.End();
+		}
+
+		const_iterator begin() const
+		{
+			return _t.Begin();
+		}
+
+		const_iterator end() const
+		{
+			return _t.End();
+		}
+
+		pair<iterator, bool> insert(const pair<K, V>& kv)
+		{
+			return _t.Insert(kv);
+		}
+
+		iterator find(const K& key)
+		{
+			return _t.Find(key);
+		}
+		V& operator[](const K& key)
+		{
+			pair<iterator, bool> ret = insert(make_pair(key, V()));
+			return ret.first->second;
+		}
+
+	private:
+		RBTree<K, pair<const K, V>, MapKeyOfT> _t;
+	};
+
+	void test_map()
+	{
+		map<string, string> dict;
+		dict.insert({ "sort", "排序" });
+		dict.insert({ "left", "左边" });
+		dict.insert({ "right", "右边" });
+
+		dict["left"] = "左边，剩余";
+		dict["insert"] = "插⼊";
+		dict["string"];
+
+		map<string, string>::iterator it = dict.begin();
+		while (it != dict.end())
+		{
+			// 不能修改first，可以修改second 
+			//it->first += 'x';
+			it->second += 'x';
+			cout << it->first << ":" << it->second << endl;
+			++it;
+		}
+		cout << endl;
+	}
+}
+
