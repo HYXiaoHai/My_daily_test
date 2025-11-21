@@ -3,7 +3,41 @@
 #include<algorithm>
 #include<functional>
 using namespace std;
-
+//template<class T>
+//class Auto_ptr
+//{
+//public:
+//	Auto_ptr(const T* ptr = nullptr )
+//		:_ptr(ptr)
+//		,_pcount(new int(1))
+//	{
+//	}
+//	Auto_ptr(const shared_ptr<T>& sp)
+//		:_ptr(sp._ptr)
+//		, _pcount(sp._pcount)
+//	{
+//		++(*_pcount);
+//	}
+//	Auto_ptr<T>& operator=(Auto_ptr<T>ptr)
+//	{
+//		reserv();
+//		_ptr = ptr._ptr;
+//		_pcount = ptr._pcount;
+//		++(*_pcount);
+//		return *this;
+//	}
+//	void reserv()
+//	{
+//		if (--(*_pcount)==0)
+//		{
+//			delete _ptr;
+//			delete _pcount;
+//		}
+//	}
+//private:
+//	T* _ptr;
+//	int* _pcount;
+//};
 
 namespace XiaoHai
 {
@@ -195,29 +229,34 @@ namespace XiaoHai
 		T* _ptr = nullptr;
 	};
 }
-int main()
-{
-	XiaoHai::auto_ptr<Date> ap1(new Date);
-	// 拷⻉时，管理权限转移，被拷⻉对象ap1悬空 
-	XiaoHai::auto_ptr<Date> ap2(ap1);
-	// 空指针访问，ap1对象已经悬空 
-	//ap1->_year++;
-	XiaoHai::unique_ptr<Date> up1(new Date);
-	// 不⽀持拷⻉ 
-	//unique_ptr<Date> up2(up1);
-	// ⽀持移动，但是移动后up1也悬空，所以使⽤移动要谨慎 
-	XiaoHai::unique_ptr<Date> up3(move(up1));
-	XiaoHai::shared_ptr<Date> sp1(new Date);
-	// ⽀持拷⻉ 
-	XiaoHai::shared_ptr<Date> sp2(sp1);
-	XiaoHai::shared_ptr<Date> sp3(sp2);
-	cout << sp1.use_count() << endl;
-	sp1->_year++;
-	cout << sp1->_year << endl;
-	cout << sp2->_year << endl;
-	cout << sp3->_year << endl;
-	return 0;
-}
+
+
+
+//int main()
+//{
+//	XiaoHai::auto_ptr<Date> ap1(new Date);
+//	// 拷⻉时，管理权限转移，被拷⻉对象ap1悬空 
+//	XiaoHai::auto_ptr<Date> ap2(ap1);
+//	// 空指针访问，ap1对象已经悬空 
+//	//ap1->_year++;
+//	XiaoHai::unique_ptr<Date> up1(new Date);
+//	// 不⽀持拷⻉ 
+//	//unique_ptr<Date> up2(up1);
+//	// ⽀持移动，但是移动后up1也悬空，所以使⽤移动要谨慎 
+//	XiaoHai::unique_ptr<Date> up3(move(up1));
+//	XiaoHai::shared_ptr<Date> sp1(new Date);
+//	// ⽀持拷⻉ 
+//	XiaoHai::shared_ptr<Date> sp2(sp1);
+//	XiaoHai::shared_ptr<Date> sp3(sp2);
+//	cout << sp1.use_count() << endl;
+//	sp1->_year++;
+//	cout << sp1->_year << endl;
+//	cout << sp2->_year << endl;
+//	cout << sp3->_year << endl;
+//	return 0;
+//}
+
+
 
 struct ListNode
 {
@@ -251,6 +290,8 @@ int main()
 	return 0;
 }
 
+
+
 int main()
 {
 	// 申请⼀个1G未释放，这个程序多次运⾏也没啥危害 
@@ -259,6 +300,8 @@ int main()
 	cout << (void*)ptr << endl;
 	return 0;
 }
+
+
 
 namespace XiaoHai
 {

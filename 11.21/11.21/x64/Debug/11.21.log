@@ -1,0 +1,8 @@
+﻿  test.cpp
+D:\a VS编程\GitHub\My_daily_test\11.21\11.21\test.cpp(289,22): warning C4566: 由通用字符名称“\u2F9C”表示的字符不能在当前代码页(936)中表示出来
+D:\a VS编程\GitHub\My_daily_test\11.21\11.21\test.cpp(293,11): warning C4566: 由通用字符名称“\u2F64”表示的字符不能在当前代码页(936)中表示出来
+D:\a VS编程\GitHub\My_daily_test\11.21\11.21\test.cpp(300,24): warning C4566: 由通用字符名称“\u2F9C”表示的字符不能在当前代码页(936)中表示出来
+D:\a VS编程\GitHub\My_daily_test\11.21\11.21\test.cpp(308,11): warning C4566: 由通用字符名称“\u2F64”表示的字符不能在当前代码页(936)中表示出来
+D:\a VS编程\GitHub\My_daily_test\11.21\11.21\test.cpp(320,23): warning C4566: 由通用字符名称“\u2F9C”表示的字符不能在当前代码页(936)中表示出来
+D:\a VS编程\GitHub\My_daily_test\11.21\11.21\test.cpp(324,11): warning C4566: 由通用字符名称“\u2F64”表示的字符不能在当前代码页(936)中表示出来
+  11.21.vcxproj -> D:\a VS编程\GitHub\My_daily_test\11.21\x64\Debug\11.21.exe
