@@ -1,0 +1,4 @@
+﻿  homework.cpp
+D:\a VS编程\GitHub\My_daily_test\ShuJuJieGou\ShuJuJieGou\homework.cpp(254,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\ShuJuJieGou\ShuJuJieGou\homework.cpp(411,23): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ShuJuJieGou.vcxproj -> D:\a VS编程\GitHub\My_daily_test\ShuJuJieGou\x64\Debug\ShuJuJieGou.exe

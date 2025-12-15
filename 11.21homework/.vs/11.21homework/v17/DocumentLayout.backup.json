@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.21homework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2060D5CE-E6A5-45C1-B9CA-EC9E60428452}|11.21homework\\11.21homework.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.21homework\\11.21homework\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2060D5CE-E6A5-45C1-B9CA-EC9E60428452}|11.21homework\\11.21homework.vcxproj|solutionrelative:11.21homework\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.21homework\\11.21homework\\test.cpp",
+              "RelativeDocumentMoniker": "11.21homework\\test.cpp",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\11.21homework\\11.21homework\\test.cpp",
+              "RelativeToolTip": "11.21homework\\test.cpp",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAIwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-21T12:21:54.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

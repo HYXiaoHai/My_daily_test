@@ -1,0 +1,3 @@
+﻿  test.cpp
+D:\a VS编程\GitHub\My_daily_test\12.12test\12.12test\test.cpp(77,1): warning C4172: 返回局部变量的地址或临时 : tmp
+  12.12test.vcxproj -> D:\a VS编程\GitHub\My_daily_test\12.12test\x64\Debug\12.12test.exe

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\homework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|solutionrelative:MianXiangDuiXiang\\homework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|solutionrelative:MianXiangDuiXiang\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "homework.cpp",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\homework.cpp",
+              "RelativeDocumentMoniker": "MianXiangDuiXiang\\homework.cpp",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\homework.cpp",
+              "RelativeToolTip": "MianXiangDuiXiang\\homework.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-11T00:43:38.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\test.cpp",
+              "RelativeDocumentMoniker": "MianXiangDuiXiang\\test.cpp",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\test.cpp",
+              "RelativeToolTip": "MianXiangDuiXiang\\test.cpp",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAAAO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-10T14:47:06.897Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

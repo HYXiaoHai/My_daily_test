@@ -1,0 +1,2 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(ShuJuJieGou.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  ShuJuJieGou.vcxproj -> D:\a VS编程\GitHub\My_daily_test\ShuJuJieGou\x64\Release\role_management.exe

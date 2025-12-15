@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\Role_manage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A93F1A25-7610-4D16-BC45-A0FA7C8E5D59}|Role_manage\\Role_manage.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\Role_manage\\Role_manage\\Role_manage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A93F1A25-7610-4D16-BC45-A0FA7C8E5D59}|Role_manage\\Role_manage.vcxproj|solutionrelative:Role_manage\\Role_manage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Role_manage.cpp",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\Role_manage\\Role_manage\\Role_manage.cpp",
+              "RelativeDocumentMoniker": "Role_manage\\Role_manage.cpp",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\Role_manage\\Role_manage\\Role_manage.cpp",
+              "RelativeToolTip": "Role_manage\\Role_manage.cpp",
+              "ViewState": "AgIAAGUCAAAAAAAAAAA0wHsCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T06:09:00.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
