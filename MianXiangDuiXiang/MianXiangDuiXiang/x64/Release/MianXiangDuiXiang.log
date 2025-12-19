@@ -1,0 +1,8 @@
+﻿  RoleManage.cpp
+D:\a VS编程\GitHub\My_daily_test\MianXiangDuiXiang\MianXiangDuiXiang\RoleManage.cpp(392,52): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\MianXiangDuiXiang\MianXiangDuiXiang\RoleManage.cpp(489,22): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 276 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  MianXiangDuiXiang.vcxproj -> D:\a VS编程\GitHub\My_daily_test\MianXiangDuiXiang\x64\Release\MianXiangDuiXiang.exe

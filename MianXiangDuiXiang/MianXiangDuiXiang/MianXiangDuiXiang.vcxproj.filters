@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="homework.cpp">
+    <ClCompile Include="RoleManage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

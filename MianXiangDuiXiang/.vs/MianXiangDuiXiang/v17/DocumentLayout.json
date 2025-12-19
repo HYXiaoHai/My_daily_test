@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\homework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|solutionrelative:MianXiangDuiXiang\\homework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|solutionrelative:MianXiangDuiXiang\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\RoleManage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F3BDF2E-3725-42A5-A7AC-1FBD73810B28}|MianXiangDuiXiang\\MianXiangDuiXiang.vcxproj|solutionrelative:MianXiangDuiXiang\\RoleManage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "homework.cpp",
-              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\homework.cpp",
-              "RelativeDocumentMoniker": "MianXiangDuiXiang\\homework.cpp",
-              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\homework.cpp",
-              "RelativeToolTip": "MianXiangDuiXiang\\homework.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-11T00:43:38.283Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test.cpp",
-              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\test.cpp",
-              "RelativeDocumentMoniker": "MianXiangDuiXiang\\test.cpp",
-              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\test.cpp",
-              "RelativeToolTip": "MianXiangDuiXiang\\test.cpp",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAAAO4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RoleManage.cpp",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\RoleManage.cpp",
+              "RelativeDocumentMoniker": "MianXiangDuiXiang\\RoleManage.cpp",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\MianXiangDuiXiang\\MianXiangDuiXiang\\RoleManage.cpp",
+              "RelativeToolTip": "MianXiangDuiXiang\\RoleManage.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAywHsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-10T14:47:06.897Z"
+              "WhenOpened": "2025-12-16T06:05:31.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

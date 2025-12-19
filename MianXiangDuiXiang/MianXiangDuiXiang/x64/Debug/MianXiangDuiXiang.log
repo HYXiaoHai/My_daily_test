@@ -1,3 +1,4 @@
 ﻿  homework.cpp
-D:\a VS编程\GitHub\My_daily_test\MianXiangDuiXiang\MianXiangDuiXiang\homework.cpp(207,22): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\MianXiangDuiXiang\MianXiangDuiXiang\homework.cpp(392,52): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\MianXiangDuiXiang\MianXiangDuiXiang\homework.cpp(489,22): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
   MianXiangDuiXiang.vcxproj -> D:\a VS编程\GitHub\My_daily_test\MianXiangDuiXiang\x64\Debug\MianXiangDuiXiang.exe
