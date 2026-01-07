@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\a VS编程\GitHub\My_daily_test\12.21\12.21\test.cpp(255,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\a VS编程\GitHub\My_daily_test\12.21\12.21\test.cpp(412,23): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  12.21.vcxproj -> D:\a VS编程\GitHub\My_daily_test\12.21\x64\Debug\12.21.exe
