@@ -1,0 +1,15 @@
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\bin\Debug\net8.0\2026.2.6c#test.exe
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\bin\Debug\net8.0\2026.2.6c#test.deps.json
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\bin\Debug\net8.0\2026.2.6c#test.runtimeconfig.json
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\bin\Debug\net8.0\2026.2.6c#test.dll
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\bin\Debug\net8.0\2026.2.6c#test.pdb
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.GeneratedMSBuildEditorConfig.editorconfig
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.AssemblyInfoInputs.cache
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.AssemblyInfo.cs
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.csproj.CoreCompileInputs.cache
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.sourcelink.json
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.dll
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\refint\2026.2.6c#test.dll
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.pdb
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\2026.2.6c#test.genruntimeconfig.cache
+D:\a VS编程\GitHub\My_daily_test\2026.2.6c#test\2026.2.6c#test\obj\Debug\net8.0\ref\2026.2.6c#test.dll
