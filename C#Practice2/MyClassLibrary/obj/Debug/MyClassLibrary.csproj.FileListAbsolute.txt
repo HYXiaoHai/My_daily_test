@@ -1,0 +1,6 @@
+D:\a VS编程\GitHub\My_daily_test\C#Practice2\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice2\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+D:\a VS编程\GitHub\My_daily_test\C#Practice2\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.AssemblyReference.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice2\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice2\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice2\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

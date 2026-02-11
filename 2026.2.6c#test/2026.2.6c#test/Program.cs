@@ -1,4 +1,6 @@
-﻿#region 二维数组
+﻿using System;
+using System.Text;
+#region 二维数组
 
 //int[,] arr = new int[2, 3];//二维数组
 //int[][] arr1 = new int[2][];//交错数组[行数][（不写）]   每一行的列是可以不同的
@@ -8,7 +10,6 @@
 
 
 #endregion
-
 
 #region 值和引用类形
 
@@ -38,7 +39,9 @@
 //out传入的变量必须在内部赋值 ret不用
 
 //用作函数内部 改值 或 重新申明 能够影响外部传入的变量,让其也被修改.
+using System.Diagnostics.Metrics;
 using System.Security.Cryptography;
+using System.Text;
 
 static void ChangeValue(int value)
 {
@@ -61,16 +64,16 @@ static void ChangeArrayValue(int[] value)
 }
 static void ChangeArrayValue1(int[] value)
 {
-    value  = new int[]{ 1,2,3};
+    value = new int[] { 1, 2, 3 };
 }
 static void ChangeArrayValue2(ref int[] value)
 {
-    value  = new int[]{ 100,200,300};
+    value = new int[] { 100, 200, 300 };
 }
 
 static void ChangeArrayValue3(out int[] value)
 {
-    value  = new int[]{ 999,200,300};
+    value = new int[] { 999, 200, 300 };
 }
 
 //static void Main(string[] args)
@@ -468,9 +471,9 @@ class Test
     public static float PI = 3.1415926f;
     public int testInt = 100;
 
-    public static float  CalcCircle(float r)
+    public static float CalcCircle(float r)
     {
-        return PI*r*r;
+        return PI * r * r;
     }
     Test()//普通构造
     {
@@ -558,26 +561,26 @@ class Point
     public int x;
     public int y;
 
-    public static Point operator + (Point x1,Point x2)
+    public static Point operator +(Point x1, Point x2)
     {
-        Point p = new Point(); 
+        Point p = new Point();
         p.x = x1.x + x2.x;
         p.y = x1.y + x2.y;
         return p;
     }
     //支持函数重载
-    public static Point operator + (Point x1,int x2)
+    public static Point operator +(Point x1, int x2)
     {
-        Point p = new Point(); 
+        Point p = new Point();
         p.x = x1.x + x2;
         p.y = x1.y + x2;
         return p;
     }
 }
 
-static void  Main()
+static void Main()
 {
-     Point p = new Point();
+    Point p = new Point();
     Point p2 = new Point();
     p.x = 1;
     p.y = 1;
@@ -667,7 +670,7 @@ class Player : GameObject
 object o = new Player();
 if (o is Player)
 {
-   Player player =  o as Player;
+    Player player = o as Player;
 }
 
 object o2 = 1f; //装箱
@@ -675,7 +678,7 @@ float f1 = (float)o2;//拆箱
 
 object o3 = "121212";
 string s1 = (string)o3;
-string s2 =  o3.ToString();
+string s2 = o3.ToString();
 
 object arr = new int[3];
 int[] ar = arr as int[];
@@ -691,11 +694,14 @@ int[] ar = arr as int[];
 
 //class Son:Father//报错
 #endregion
+
+//多态
 #region 多态vob
 //v:virtual;重写
 //o:override;
 //b: base;
 #endregion
+
 #region 抽象类 abstract override
 //不能被实例化
 //可以包含抽象方法
@@ -720,7 +726,7 @@ namespace chouxianglei
     {
         public override void Bad()
         {
-            
+
         }
     }
 
@@ -744,6 +750,7 @@ namespace chouxianglei
 
 
 #endregion
+
 #region 接口 interface
 //接口是行为的抽象规范
 //他也是一种自定义类型
@@ -767,24 +774,178 @@ namespace chouxianglei
 
 //接口是用来继承的
 
+//抽象类只能单一继承，接口可以被多继承
+//抽象类中可以有成员变量，接口中不能
+//抽象类中可以申明成员方法，虚方法，抽象方法，静态方法，接口中只能申明没有实现的抽象方法
+
+//标识对象用抽象类  行为拓展用接口
+
 public interface IFly
 {
     public void Fly();//不需要函数体 不能私有   
 
-    string Name { get; set; }//属性
+    //string Name { get; set; }//属性
 
-    int this[int index]
-    { get; set; }//索引器
+    //int this[int index]
+    //{ get; set; }//索引器
 
-    event Action doSomthing;//事件
+    //event Action doSomthing;//事件
 
 }
+#region 模拟实验
 
+//用接口模拟移动硬盘，u盘，MP3插到电脑上读取数据
+//移动硬盘与u盘都属于存储设备
+//MP3属于播放设备
+//但他们都能插到电脑上传输数据。
+//电脑提供一个接口，请实现电脑的传输数据功能
+public interface IMove
+{
+    public void MOve();//不需要函数体 不能私有   
+}
+public interface IUSB//usb接口
+{
+    string DeviceName { get; }
+    bool IsConnected { get; set; }
+    void Connect();
+    void Disconnect();
+    void TransmitData(byte[] data);
+}
+// 2. 存储设备接口（继承自USB）
+public interface IStorageDevice : IUSB
+{
+    long StorageCapacity { get; }
+    long AvailableSpace { get; }
+    void Format();
+    void ReadData(string filePath);
+    void WriteData(string filePath, byte[] data);
+}
+
+// 3. 媒体播放器接口
+public interface IMediaPlayer : IUSB
+{
+    void Play();
+    void Pause();
+    void Stop();
+    void Next();
+    void Previous();
+    List<string> GetPlaylist();
+    void AddToPlaylist(string mediaPath);
+}
+// 4. 具体的设备类
+public abstract class StorageDeviceBase : IStorageDevice
+{
+    public string DeviceName { get; protected set; }
+    public bool IsConnected { get; set; }
+    public long StorageCapacity { get; protected set; }
+    public long AvailableSpace { get; protected set; }
+
+    protected Dictionary<string, byte[]> files = new Dictionary<string, byte[]>();
+
+    public StorageDeviceBase(string name, long capacity)
+    {
+        //。。。。。
+    }
+
+    public virtual void Connect()
+    {
+        IsConnected = true;
+    }
+
+    public virtual void Disconnect()
+    {
+        IsConnected = false;
+    }
+
+    public virtual void TransmitData(byte[] data)
+    {
+        if (!IsConnected)
+        {
+            return;
+        }
+        // 模拟数据传输耗时
+    }
+
+    public virtual void ReadData(string filePath)
+    {
+        if (files.ContainsKey(filePath))
+        {
+        }
+        else
+        {
+        }
+    }
+
+    public virtual void WriteData(string filePath, byte[] data)
+    {
+        if (data.Length > AvailableSpace)
+        {
+            return;
+        }
+
+        files[filePath] = data;
+        AvailableSpace -= data.Length;
+    }
+
+    public virtual void Format()
+    {
+        files.Clear();
+        AvailableSpace = StorageCapacity;
+    }
+}
+
+class YidongYingPan : IUSB
+{
+    int data;
+
+    public string DeviceName => throw new NotImplementedException();
+
+    public bool IsConnected { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+    public void Connect()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Disconnect()
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool IsUsb()
+    {
+        return true;
+    }
+
+    public void Transmit()
+    {
+        //传输数据到data
+    }
+
+    public void TransmitData(byte[] data)
+    {
+        throw new NotImplementedException();
+    }
+}
+// 5. 具体设备实现
+public class MobileHardDisk : StorageDeviceBase
+{
+    public MobileHardDisk() : base("移动硬盘", 1024L * 1024 * 1024 * 2) // 2GB
+    {
+    }
+
+    public override void TransmitData(byte[] data)
+    {
+        base.TransmitData(data);
+    }
+}
+
+#endregion
 class Animal
 { }
 class Personal : Animal, IFly
 {
-  public void Fly()
+    public void Fly()
     {
 
     }
@@ -801,21 +962,147 @@ class Personal : Animal, IFly
     }
     public event Action doSomthing;
 }
+class Maque : Animal, IFly, IMove
+{
+    public void Fly()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void MOve()
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #endregion
-#region 密封类 sealed
+#region 密封函数 sealed
+//
+abstract class Animal
+{
+    public string name;
+    public abstract void Eat();
+    public virtual void Speak()
+    {
+
+    }
+}
+
+class Person : Animal
+{
+    public sealed override void Eat()//断子绝孙
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void Speak()
+    {
+        base.Speak();
+    }
+}
+
+class WhitePerson : Person
+{
+    //public override void Eat();//报错
+
+    public override void Speak()
+    {
+        base.Speak();
+    }
+}
+
 
 #endregion
-#region 密封类 sealed
+
+#region object 的函数
+namespace MyGame
+{
+    class Test
+    {
+        public int val = 10;
+
+        public Test Clone()
+        {
+            return MemberwiseClone() as Test;
+        }
+    }
+    class Program
+    {
+        static void Main()
+        {
+            //静态方法
+            Console.WriteLine(Object.Equals(1, 1));
+
+            Animal animal1 = new Animal();
+            Animal animal2 = new Animal();
+
+            Console.WriteLine(Object.Equals(animal1, animal2));//false
+            Console.WriteLine(Object.ReferenceEquals(animal1, animal2));//不能用来比值 专门用来比引用的
+
+            //GetType//反射相关
+            //获取对象运行时的类型Type
+            Type type = animal1.GetType();
+
+            //MemberwiseClone
+            //获取对象的浅拷贝对象，口语化的意思就是返回一个新的对象
+            //新对象和老对象的引用变量一致
+
+            //虚方法
+            //Equals
+
+            //GetHashCode
+            //获取对象的哈希码（根据哈希算法算的）
+
+            //ToString
+            //返回当前值的字符串模式，也可以自己重写
+        }
+    }
+}
+
 
 #endregion
-#region 密封类 sealed
+
+#region string
+
+string std = "12345678";
+
+int index =  std.IndexOf("67");//正向查找  未找到返回-1
+int index1 =  std.LastIndexOf('8');//反向查找
+
+string s = std.Remove(index);//移除index后的移除
+string s = std.Remove(index ,index1);//移除之间（起始值 数量）
+string s2 = std.Replace("5","0");//替换
+string s3 = std.Substring(2);//截取 跟remove作用相反
+
+//字符串切割!!!!!!!!!!!!!!
+string str = "1,2,3,4,5";
+string[] strs = str.Split(',');//按照，切割
+foreach (var item in strs)
+{
+    Console.WriteLine(item);
+}
 
 #endregion
-#region 密封类 sealed
+#region StringBuilder
+//string是特殊的引用
+//每次重新赋值或拼接都会重新开辟空间 浪费空间
+
+//频繁的修改和字符串可以使用，可以提升性能
+//需要命名空间
+ StringBuilder str4 = new StringBuilder("123456789");//必须new
+//是一个string版的vector
+//会自动扩容 提前预备房间 
+
+//增添删改
+str4.Append("444");
+
+str4.AppendFormat("{0}{1}", 100, 999);//拼接
+
+str4.Insert(0, "XiaoHai");
+
+str4.Remove(0,4);//删
+str4.Clear();//清空
 
 #endregion
-#region 密封类 sealed
 
-#endregion
 
