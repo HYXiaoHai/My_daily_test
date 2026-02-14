@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2DAD54-24E0-466F-9773-448E7330DAFE}|C#Practice3\\C#Practice3.csproj|d:\\a vs\u7F16\u7A0B\\github\\my_daily_test\\c#practice3\\c#practice3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC2DAD54-24E0-466F-9773-448E7330DAFE}|C#Practice3\\C#Practice3.csproj|solutionrelative:c#practice3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\C#Practice3\\Program.cs",
+              "RelativeDocumentMoniker": "C#Practice3\\Program.cs",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\C#Practice3\\Program.cs",
+              "RelativeToolTip": "C#Practice3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:32:49.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

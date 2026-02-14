@@ -1,0 +1,15 @@
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\bin\Debug\net8.0\C#Practice3.exe
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\bin\Debug\net8.0\C#Practice3.deps.json
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\bin\Debug\net8.0\C#Practice3.runtimeconfig.json
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\bin\Debug\net8.0\C#Practice3.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\bin\Debug\net8.0\C#Practice3.pdb
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.GeneratedMSBuildEditorConfig.editorconfig
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.AssemblyInfoInputs.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.AssemblyInfo.cs
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.csproj.CoreCompileInputs.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.sourcelink.json
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\refint\C#Practice3.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.pdb
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\C#Practice3.genruntimeconfig.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Practice3\obj\Debug\net8.0\ref\C#Practice3.dll

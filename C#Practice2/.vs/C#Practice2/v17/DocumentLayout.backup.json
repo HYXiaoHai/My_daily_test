@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{B4DC7F95-65B5-427B-9CC3-1D140A59BD46}|C#Practice2\\C#Practice2.csproj|solutionrelative:c#practice2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BC4355-F80F-40A9-A843-421131FB858C}|MyClassLibrary\\MyClassLibrary.csproj|d:\\a vs\u7F16\u7A0B\\github\\my_daily_test\\c#practice2\\myclasslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5BC4355-F80F-40A9-A843-421131FB858C}|MyClassLibrary\\MyClassLibrary.csproj|D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice2\\myclasslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5BC4355-F80F-40A9-A843-421131FB858C}|MyClassLibrary\\MyClassLibrary.csproj|solutionrelative:myclasslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +30,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice2\\C#Practice2\\Program.cs",
+              "RelativeDocumentMoniker": "C#Practice2\\Program.cs",
+              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice2\\C#Practice2\\Program.cs",
+              "RelativeToolTip": "C#Practice2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:00:17.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice2\\MyClassLibrary\\Class1.cs",
@@ -38,21 +51,7 @@
               "RelativeToolTip": "MyClassLibrary\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T13:41:45.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice2\\C#Practice2\\Program.cs",
-              "RelativeDocumentMoniker": "C#Practice2\\Program.cs",
-              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice2\\C#Practice2\\Program.cs",
-              "RelativeToolTip": "C#Practice2\\Program.cs",
-              "ViewState": "AgIAAH4EAAAAAAAAAAAiwJ8EAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T13:00:17.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T13:41:45.808Z"
             },
             {
               "$type": "Bookmark",

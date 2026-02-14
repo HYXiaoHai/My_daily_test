@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#Practice3", "C#Practice3\C#Practice3.csproj", "{DC2DAD54-24E0-466F-9773-448E7330DAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#Tcp客户端", "C#Tcp客户端\C#Tcp客户端.csproj", "{8E9B6342-894E-4F88-9250-B4F9AF2A34D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC2DAD54-24E0-466F-9773-448E7330DAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2DAD54-24E0-466F-9773-448E7330DAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2DAD54-24E0-466F-9773-448E7330DAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2DAD54-24E0-466F-9773-448E7330DAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9B6342-894E-4F88-9250-B4F9AF2A34D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9B6342-894E-4F88-9250-B4F9AF2A34D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9B6342-894E-4F88-9250-B4F9AF2A34D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9B6342-894E-4F88-9250-B4F9AF2A34D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4B6ED19-EDF9-40CB-A825-D40AC9100D3B}
+	EndGlobalSection
+EndGlobal

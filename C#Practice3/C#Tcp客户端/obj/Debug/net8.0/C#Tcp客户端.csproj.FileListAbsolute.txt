@@ -1,0 +1,15 @@
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\bin\Debug\net8.0\C#Tcp客户端.exe
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\bin\Debug\net8.0\C#Tcp客户端.deps.json
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\bin\Debug\net8.0\C#Tcp客户端.runtimeconfig.json
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\bin\Debug\net8.0\C#Tcp客户端.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\bin\Debug\net8.0\C#Tcp客户端.pdb
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.GeneratedMSBuildEditorConfig.editorconfig
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.AssemblyInfoInputs.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.AssemblyInfo.cs
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.csproj.CoreCompileInputs.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.sourcelink.json
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\refint\C#Tcp客户端.dll
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.pdb
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\C#Tcp客户端.genruntimeconfig.cache
+D:\a VS编程\GitHub\My_daily_test\C#Practice3\C#Tcp客户端\obj\Debug\net8.0\ref\C#Tcp客户端.dll

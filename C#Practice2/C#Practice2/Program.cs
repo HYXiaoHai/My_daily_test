@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 
 
 namespace MyObject
@@ -458,7 +459,7 @@ namespace MyObject
             this._fun2 -= fun1;
         }
     }
-    class Program
+    class Program6
     {
         //使用委托 用来存函数
         static void Main()
@@ -517,7 +518,6 @@ namespace MyObject
             Func<int, int> func1 = null;//int Fun(int x)类型的函数吗
             Action<int, string> action1 = null;//有参无返回值 void Fun(int,string ,.................)
         }
-    }
         static void Fun()
         {
             Console.Write("Fun");
@@ -531,6 +531,7 @@ namespace MyObject
             Console.WriteLine("Fun2" + value);
             return value;
         }
+    }
         #endregion
 
         #region 事件 event
@@ -1190,14 +1191,14 @@ namespace MyObject
     }
     #endregion
 
-    #region 特性
+    #region 特性 Attribute
     //是允许我们向程序的程序集添加元数据的语言结构
     //用于保存程序结构信息的某种特殊类型的类
 
     //就是为元数据添加额外的信息
     //之后也可以通过反射来获取
 
-    class MyCustomAttribute:Attribute//自定义特性
+    class MyCustomAttribute :Attribute//自定义特性
     {
         public string _info;
         public MyCustomAttribute(string info)
@@ -1470,33 +1471,104 @@ namespace MyObject
             int Add(int x, int y) => x + y;
         }
     }
-            #endregion
+    #endregion
 
-            #region 值类型 和 引用类型2
-       //值类型
-       //char bool
-       //enum
-       //struct
+    #region 值类型 和 引用类型2
+    //值类型
+    //char bool
+    //enum
+    //struct
 
-       //引用类型
-       //委托
-       //class
-       //interface
-       //数组
-       //string
-            #endregion
+    //引用类型
+    //委托
+    //class
+    //interface
+    //数组
+    //string
 
-            #region 插入排序
+    //值类型跟着大哥走 引用类型一根筋
 
-            #endregion
+    //利用里氏替换原则 用接口容器装在结构体存在装箱拆箱
+    #endregion
 
-            #region 希尔排序
+    #region 插入排序
 
-            #endregion
+    #endregion
 
-            #region 归并排序
+    #region 希尔排序
 
-            #endregion
+    #endregion
 
+    #region 归并排序
+
+    #endregion
+
+    #region 正则表达式
+    //模式          含义                   示例
+    //\d            数字                   \d{4} → 四位数
+    //\w	        字母/数字/下划线       \w+ → 单词
+    //.	            任意字符（除换行）     a.b → a+任意+b
+    //*	            0次或多次	           ab*c → ac, abc, abbc
+    //+	            1次或多次	           ab+c → abc, abbc
+    //?	            0次或1次	           colou?r → color, colour
+    //{n, m}	    n到m次                 \d{2,4} → 2~4位数字
+    //[abc]         字符集                 gr[ae]y → gray, grey
+    //^	            开始（或取反在[] 中） ^abc → 以abc开头
+    //$	            结尾	               xyz$ → 以xyz结尾
+    //( )	        捕获组	               (\d+)px → 提取数字
+    class Program12
+    {
+        static void Main()
+        {
+            string input = "HP: 150/200";
+            // 判断：是否以HP开头
+            bool hasHp = Regex.IsMatch(input, "^HP");  // true
+
+            // 提取：当前血量和最大血量
+            Match match = Regex.Match(input, @"HP:\s*(\d+)/(\d+)");
+            if (match.Success)
+            {
+                int current = int.Parse(match.Groups[1].Value); // 150
+                int max = int.Parse(match.Groups[2].Value);     // 200
+            }
+            // 替换：屏蔽敏感词
+            string chat = "笨蛋，你作弊";
+            string filtered = Regex.Replace(chat, "笨蛋|作弊", "***"); // "***，你***"
+
+            // 分割：按标点拆分
+            string[] words = Regex.Split("a,b;c", "[,;]"); // ["a","b","c"]
         }
+    }
+
+    #endregion
+
+    #region 文件操作
+    class Program13
+    {
+        static void Main()
+        {
+            FileInfo myfile = new FileInfo(@"目录地址");
+            DirectoryInfo info = new DirectoryInfo(myfile.FullName);
+            myfile.CopyTo(@"复制地址");
+            //File.Copy();
+            myfile.Create();//增加文件夹creat
+
+            myfile.Delete();
+
+            //流
+            FileStream read = new FileStream(@"路径",FileMode.Open,FileAccess.Read);//路径 方式 权限
+            //read.ReadByte();//读取一个字节
+
+            FileStream write = new FileStream("", FileMode.Create, FileAccess.Write);
+            //write.WriteByte();
+
+            while(true)
+            {
+
+            }
+        }
+    }
+    #endregion
+}
+
 
