@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC2DAD54-24E0-466F-9773-448E7330DAFE}|C#Practice3\\C#Practice3.csproj|d:\\a vs\u7F16\u7A0B\\github\\my_daily_test\\c#practice3\\c#practice3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC2DAD54-24E0-466F-9773-448E7330DAFE}|C#Practice3\\C#Practice3.csproj|solutionrelative:c#practice3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC2DAD54-24E0-466F-9773-448E7330DAFE}|C#Practice3\\C#Practice3.csproj|d:\\a vs\u7F16\u7A0B\\github\\my_daily_test\\c#practice3\\c#practice3\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC2DAD54-24E0-466F-9773-448E7330DAFE}|C#Practice3\\C#Practice3.csproj|solutionrelative:c#practice3\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Skills.txt",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\C#Practice3\\Skills.txt",
               "RelativeDocumentMoniker": "C#Practice3\\Skills.txt",
@@ -46,12 +42,11 @@
               "RelativeToolTip": "C#Practice3\\Skills.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-14T06:38:30.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T06:38:30.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Skills.xml",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\C#Practice3\\Skills.xml",
               "RelativeDocumentMoniker": "C#Practice3\\Skills.xml",
@@ -59,12 +54,11 @@
               "RelativeToolTip": "C#Practice3\\Skills.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-02-14T05:17:50.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T05:17:50.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Skill.cs",
               "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\C#Practice3\\Skill.cs",
               "RelativeDocumentMoniker": "C#Practice3\\Skill.cs",
@@ -72,21 +66,7 @@
               "RelativeToolTip": "C#Practice3\\Skill.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T05:00:46.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\C#Practice3\\Program.cs",
-              "RelativeDocumentMoniker": "C#Practice3\\Program.cs",
-              "ToolTip": "D:\\a VS\u7F16\u7A0B\\GitHub\\My_daily_test\\C#Practice3\\C#Practice3\\Program.cs",
-              "RelativeToolTip": "C#Practice3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T08:32:49.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T05:00:46.45Z"
             },
             {
               "$type": "Bookmark",
